@@ -23,9 +23,9 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-light text-uppercase fixed-top text-dark" id="mainNav">
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top text-light" id="mainNav">
     <div class="container">
-      <h1 class="navbar-brand js-scroll-trigger text-secondary">My Portfolio</h1>
+      <h1 class="navbar-brand js-scroll-trigger text-light">My Portfolio</h1>
     </div>
   </nav>
 
@@ -102,7 +102,7 @@
         <!-- Portfolio Item 2 -->
         <div class="col-md-6 col-lg-4">
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100 bg-secondary">
               <div class="portfolio-item-caption-content text-center text-white">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
