@@ -25,6 +25,6 @@ li {
     font-size:21px;
 }
 
-.bg {
+.bg-secondary:hover {
     opacity:.5 !important;
 }
