@@ -24,3 +24,8 @@ p {
 li {
     font-size:21px;
 }
+
+.portfolio-item-caption:hover {
+    opacity: .8 !important;
+    color: #2c3e50 !important;
+}

@@ -25,7 +25,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-light text-uppercase fixed-top text-dark" id="mainNav">
     <div class="container">
-      <h1 class="navbar-brand js-scroll-trigger text-dark">My Portfolio</h1>
+      <h1 class="navbar-brand js-scroll-trigger text-secondary">My Portfolio</h1>
     </div>
   </nav>
 
@@ -95,7 +95,7 @@
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio/user.png" alt="User Avatar" height="512px" width="512px">
-            <h3 class="mt-.5 portfolio-text">About Me</h3>
+            <h3 class="mt-.5 portfolio-text text-secondary">About Me</h3>
           </div>
         </div>
 
@@ -108,7 +108,7 @@
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio/Code.png" alt="Code Icon" height="512px" width="512px">
-            <h3 class="mt-3 portfolio-text">Projects</h3>
+            <h3 class="mt-3 portfolio-text text-secondary">Projects</h3>
           </div>
         </div>
 
@@ -121,7 +121,7 @@
               </div>
             </div>
             <img class="img-fluid" src="img/portfolio/transcript.png" alt="Transcript Icon" height="512px" width="512px">
-            <h3 class="mt-3 portfolio-text">Grades</h3>
+            <h3 class="mt-3 portfolio-text text-secondary">Grades</h3>
           </div>
         </div>
 
