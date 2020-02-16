@@ -120,7 +120,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/transcript.png" alt="Transcript Icon" height="512px" width="512px">
+            <img class="img-fluid" src="img/portfolio/grades.png" alt="Transcript Icon" height="512px" width="512px">
             <h3 class="mt-3 portfolio-text text-secondary">Grades</h3>
           </div>
         </div>
