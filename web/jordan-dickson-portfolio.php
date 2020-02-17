@@ -256,7 +256,7 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/Jordan-Dickson.png" alt="Me" height="512px"
+                <img class="img-fluid rounded mb-5" src="img/portfolio/me2.png" alt="Me" height="512px"
                   width="512px;">
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5" style="font-weight:bold">I am from Washington State. Being from the Pacific Northwest I
