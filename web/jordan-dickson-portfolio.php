@@ -34,7 +34,7 @@
     <div class="container d-flex align-items-center flex-column">
 
       <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar mb-5" src="img\jordan-avataaars.svg" alt="Jordan Dickson">
+      <img class="masthead-avatar mb-5" src="img\me.png" alt="Jordan Dickson">
 
       <!-- Masthead Heading -->
       <h1 class="masthead-heading text-uppercase mb-0">Jordan Dickson</h1>
