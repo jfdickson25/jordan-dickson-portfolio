@@ -28,3 +28,7 @@ li {
 .bg-secondary:hover {
     opacity:.5 !important;
 }
+
+.op:hover {
+    opacity:1 !important;
+}
