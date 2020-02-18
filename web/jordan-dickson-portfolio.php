@@ -30,7 +30,7 @@
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead bg-primary text-white text-center, back-color">
+  <header class="masthead bg-primary text-white text-center, back-color, back-pic">
     <div class="container d-flex align-items-center flex-column">
 
       <!-- Masthead Avatar Image -->
