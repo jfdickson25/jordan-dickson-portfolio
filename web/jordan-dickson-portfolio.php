@@ -536,16 +536,13 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-1" src="img/portfolio/Resume2020-1.jpg" alt="My Resume" height="512px"
-                  width="512px;" style="padding:15px; border:solid">
-                <br>
+                
                 <p>
                 <iframe src="Resume2020.pdf" width="100%" height="500px"></iframe>
                 </p>
 
                 <br>
-                <a href="Resume2020.pdf" class="btn btn-primary btn-lg mb-3" role="button" aria-disabled="true" target="_blank" width="250px">PDF</a>
-                <br>
+                
                 <button class="btn btn-primary mt-3" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
