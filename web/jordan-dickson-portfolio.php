@@ -49,7 +49,7 @@
       </div>
 
       <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0 text-secondary">Software Engineering - BYU-Idaho</p>
+      <p class="masthead-subheading font-weight-light mb-0 text-white">Software Engineering - BYU-Idaho</p>
 
       <span class="mt-3">
       <a class="btn btn-outline-light btn-social mx-1" href="mailto:jfdickson25@gmail.com?Subject=Portfolio%20"
