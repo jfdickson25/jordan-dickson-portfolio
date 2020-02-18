@@ -538,7 +538,7 @@
                 <!-- Portfolio Modal - Image -->
                 
                 <p>
-                <iframe src="Resume2020.pdf" width="100%" height="500px"></iframe>
+                <iframe src="Resume2020.pdf" width="100%" height="800px"></iframe>
                 </p>
 
                 <br>
