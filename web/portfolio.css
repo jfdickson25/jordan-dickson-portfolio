@@ -35,4 +35,5 @@ li {
 
 .back-pic {
     background-image: url("mountain.jpg") !important;
+    background-repeat: no-repeat;
 }
