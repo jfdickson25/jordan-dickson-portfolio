@@ -153,7 +153,7 @@
           <ul>
             <li>Junior at Brigham Young University Idaho</li>
             <li>Study: Bachelor of Science in Software Engineering</li>
-            <li>Cumulative GPA: 3.71</li>
+            <li>Cumulative <span style="font-weight:bold">GPA: 3.71</span></li>
             <li>Full-Time service volunteer Barcelona, Spain 2016-2018</li>  
           </ul>
         </div>
