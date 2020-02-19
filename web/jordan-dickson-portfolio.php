@@ -23,7 +23,7 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top text-light" id="mainNav">
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top text-light full" id="mainNav">
     <div class="container">
       <h1 class="navbar-brand js-scroll-trigger text-light full">My Portfolio</h1>
     </div>
@@ -149,9 +149,9 @@
 
       <!-- About Section Content -->
       <div class="row">
-        <div class="col-lg-6 ml-auto mr-auto">
+        <div class="col-lg-8 ml-auto mr-auto">
           <ul>
-            <li>BYUI Junior</li>
+            <li>Junior at Brigham Young University Idaho</li>
             <li>Study: Bachelor of Science in Software Engineering</li>
             <li>Cumulative GPA: 3.71</li>
             <li>Full-Time service volunteer Barcelona Spain 2016-2018</li>  

@@ -39,6 +39,6 @@ li {
     background-size: cover;
 }
 
-.full {
+.full:hover {
     opacity: 1 !important;
 }
