@@ -136,7 +136,7 @@
     <div class="container">
 
       <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-dark">Why Hire Me?</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-dark">Quick Facts</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
@@ -151,19 +151,12 @@
       <div class="row">
         <div class="col-lg-6 ml-auto mr-auto">
           <ul>
-            <li>I am a hard worker</li>
-            <li>I bring an attitude of someone willing to learn</li>
-            <li>I work well in teams</li>
-            <li>I pride myself on communicating well with others</li> 
-            <li>I am a fast learner</li>
-            <li>Will use personal time to learn skills needed for the job</li>
-            <li>I am goal driven</li>  
+            <li>BYUI Junior</li>
+            <li>Study: Bachelor of Science in Software Engineering</li>
+            <li>Cumulative GPA: 3.71</li>
+            <li>Full-Time service volunteer Barcelona Spain 2016-2018</li>  
           </ul>
         </div>
-      </div>
-
-      <div class="row mt-3" style="text-align:center; font-size:24;">
-        <p>I feel like I would be a great addition to any company looking for an intern who is ready to give it their all!</p>
       </div>
 
     </div>
