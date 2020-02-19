@@ -154,6 +154,7 @@
             <li>Junior at Brigham Young University Idaho</li>
             <li>Study: Bachelor of Science in Software Engineering</li>
             <li>Cumulative <span style="font-weight:bold">GPA: 3.71</span></li>
+            <li>Eagle Scout</li>
             <li>Full-Time service volunteer <span style="font-weight:bold">Barcelona, Spain 2016-2018</span></li>  
           </ul>
         </div>
