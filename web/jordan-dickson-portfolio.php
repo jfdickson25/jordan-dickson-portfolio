@@ -59,7 +59,7 @@
       <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/jordan-forrest-dickson" target="_blank">
         <i class="fab fa-fw fa-linkedin-in"></i>
       </a>
-      <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/jfdickson25/cs313.git" target="_blank">
+      <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/jfdickson25?tab=repositories" target="_blank">
         <i class="fab fa-github"></i>
       </a>
       </span>
