@@ -413,7 +413,7 @@
                 <h3>C++</h3>
                 <h3>Java</h3>
                 <h3>JavaScript</h3>
-                <h3>HTML/CSS</h3>
+                <h3>HTML/CSS/PHP</h3>
                 <h3>Willing to learn more</h3>
 
 
