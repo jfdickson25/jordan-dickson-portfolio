@@ -343,7 +343,7 @@
                 <p class="mb-5, description">Clickable link to Shopping Cart web page</p>
                 <br>
                 <br>
-                <a href="https://frozen-reaches-00850.herokuapp.com/prove/prove05/prove05.php" target="_blank">
+                <a href="https://frozen-reaches-00850.herokuapp.com/prove/prove05/fighting-simulator.php" target="_blank">
                 <img class="img-fluid rounded mt-3" src="img/portfolio/fighting-simulator.png" alt="Fighting Simulator" height="512px" width="800px;" style="border: dotted">
                 </a>
                 <p class="mb-5, description">Clickable link to Fighting Simulator web page</p>
