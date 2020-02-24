@@ -338,7 +338,7 @@
 
 
                 <a href="https://frozen-reaches-00850.herokuapp.com/prove/prove03/browse_items.php" target="blank">
-                <img class="img-fluid rounded mt-3" src="img/portfolio/shopping-cart.png" alt="Shopping Cart" height="512px" width="800px;" style="border: dotted">
+                <img class="img-fluid rounded mt-3" src="img/portfolio/shop-cart.png" alt="Shopping Cart" height="512px" width="800px;" style="border: dotted">
                 </a>
                 <p class="mb-5, description">Clickable link to Shopping Cart web page</p>
                 <br>
