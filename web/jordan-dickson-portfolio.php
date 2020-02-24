@@ -291,7 +291,7 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <img class="img-fluid rounded mb-5" src="img/portfolio/spain.png" alt="Spain Icon" height="300px" width="300px;">
-                <p class="mb-5" style="font-weight:bold">For two years I was a full-time service represetative for the Church of Jesus Christ
+                <p class="mb-5" style="font-weight:bold">For two years I was a full-time service volunteer for the Church of Jesus Christ
                   of Latter Day Saints in Barcelona Spain. While there
                   I had the chance to look for service opportunities and share my beliefs with others. This was
                   a very special time for me. I learned to love the culture and the people of Spain as I served them.
