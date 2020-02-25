@@ -200,7 +200,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/resume-icon.png" alt="Resume Icon" height="800px" width="800px">
+            <img class="img-fluid" src="img/portfolio/resume.png" alt="Resume Icon" height="800px" width="800px">
           </div>
         </div>
 
@@ -213,6 +213,7 @@
   <section class="copyright py-4 bg-light text-center text-dark">
     <div class="container">
       <small>Copyright &copy; Jordan Dickson 2020</small>
+      <small>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></small>
     </div>
   </section>
 
