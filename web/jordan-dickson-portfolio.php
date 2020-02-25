@@ -215,6 +215,8 @@
       <small>Copyright &copy; Jordan Dickson 2020</small>
       <br>
       <small>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></small>
+      <br>
+      <small>Photo via <a href="https://www.goodfreephotos.com/">Good Free Photos</a></small>
     </div>
   </section>
 
