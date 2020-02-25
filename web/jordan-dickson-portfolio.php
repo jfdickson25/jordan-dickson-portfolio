@@ -107,7 +107,7 @@
                 <i class="fas fa-plus fa-3x op"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/Code.png" alt="Code Icon" height="512px" width="512px">
+            <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             <h3 class="mt-3 portfolio-text text-secondary">Projects</h3>
           </div>
         </div>
