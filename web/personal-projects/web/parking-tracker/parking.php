@@ -24,7 +24,7 @@
 ?>
 
 
-<title>Parking Spot</title>
+<title>Parking Spot:</title>
 
 <html>
 
