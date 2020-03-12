@@ -299,7 +299,17 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <img class="img-fluid rounded mb-5" src="img/portfolio/eagle-project.jpg" alt="Eagle Project" height="512px" width="512px;">
-                <h3 class='mt-3 mb-3'>Service Representative</h3>
+                <h3 class="mt-3">Eagle Project</h3>
+                <p style="font-weight:bold">
+                  <ul class="mt-3 mb-3">
+                    <li>Planned the construction of a 40-foot fence to divide pedestrian and biker trails</li>
+                    <li>Organized the gathering of 30 people to accomplish the project</li>
+                    <li>Supervised the completion of the project in 4 hours</li>
+                    <li>Skills learned: Leadership, Discipline, Teamwork, Communication</li>
+                  </ul>
+                </p>
+                <img class="img-fluid rounded mb-5" src="img/portfolio/missionary.jpg" alt="Service Representative" height="512px" width="512px;">
+                <h3 class='mt-3 mb-5'>Service Representative</h3>
                 <p class="mb-3" style="font-weight:bold">
                 <ul class="mb-3">
                   <li>Two year full-time service volunteer for the Church of Jesus Christ of Latter Day Saints in Barcelona Spain. </li>
@@ -309,15 +319,6 @@
                   <li>Learned to be punctual by planning daily activities and lessons</li>
                   <li>I learned to love the culture and the people of Spain as I served them</li>              
                 </ul>
-                </p>
-                <h3 class="mt-3">Eagle Project</h3>
-                <p style="font-weight:bold">
-                  <ul class="mb-5">
-                    <li>Planned the construction of a 40-foot fence to divide pedestrian and biker trails</li>
-                    <li>Organized the gathering of 30 people to accomplish the project</li>
-                    <li>Supervised the completion of the project in 4 hours</li>
-                    <li>Skills learned: Leadership, Discipline, Teamwork, Communication</li>
-                  </ul>
                 </p>
 
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
