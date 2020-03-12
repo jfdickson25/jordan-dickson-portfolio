@@ -254,7 +254,7 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/me2.png" alt="Me" height="512px"
+                <img class="img-fluid rounded mb-5" src="img/portfolio/me.JPG" alt="Me" height="512px"
                   width="512px;">
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5" style="font-weight:bold">I am from Washington State. Being from the Pacific Northwest I
@@ -546,7 +546,7 @@
                 <!-- Portfolio Modal - Image -->
                 
                 <p>
-                <iframe src="Resume2020.pdf" width="100%" height="500px"></iframe>
+                <iframe src="Resume.pdf" width="100%" height="500px"></iframe>
                 </p>
 
                 <br>
