@@ -311,10 +311,10 @@
                 <br>
                 <hr>
                 <br>
-                
+
                 </p>
                 <img class="img-fluid rounded mb-5" src="img/portfolio/missionary.jpg" alt="Service Representative" height="512px" width="512px;">
-                <h3 class='mt-3 mb-5'>Service Representative</h3>
+                <h3 class='mt-3'>Service Representative</h3>
                 <p class="mb-3" style="font-weight:bold">
                 <ul class="mb-3">
                   <li>Two year full-time service volunteer for the Church of Jesus Christ of Latter Day Saints in Barcelona Spain. </li>
