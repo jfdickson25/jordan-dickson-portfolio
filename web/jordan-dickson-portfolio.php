@@ -355,7 +355,7 @@
                 <br>
                 <br>
 
-                <a href="https://jordan-personal-projects.herokuapp.com/parking-tracker/parking.php" target="_blank">
+                <a href="https://jordan-dickson-1995.herokuapp.com/personal-projects/web/parking-tracker/parking.php" target="_blank">
                 <img class="img-fluid rounded mt-3" src="img/portfolio/parking.PNG" alt="Parking Spot" height="512px" width="800px;" style="border: dotted">
                 </a>
                 <p class="mb-5, description">Clickable link to Parking Spot web page</p>
