@@ -294,14 +294,28 @@
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
-                <img class="img-fluid rounded mb-5" src="img/portfolio/spain.png" alt="Spain Icon" height="300px" width="300px;">
-                <p class="mb-5" style="font-weight:bold">For two years I was a full-time service volunteer for the Church of Jesus Christ
-                  of Latter Day Saints in Barcelona Spain. While there
-                  I had the chance to look for service opportunities and share my beliefs with others. This was
-                  a very special time for me. I learned to love the culture and the people of Spain as I served them.
-                  Because of the experiences I had and how much I loved serving others, I continue to look for
-                  opportunities to give service to those around me.
+                <img class="img-fluid rounded mb-5" src="img/portfolio/eagle-project.jpg" alt="Eagle Project" height="512px" width="512px;">
+                <h3 class='mt-3 mb-3'>Service Representative</h3>
+                <p class="mb-3" style="font-weight:bold">
+                <ul>
+                  <li>Two year full-time service volunteer for the Church of Jesus Christ of Latter Day Saints in Barcelona Spain. </li>
+                  <li>Looked for service opportunities and share my beliefs with others</li>
+                  <li>Developed communication skills by talking to people on the street and teaching religious lessons</li>
+                  <li>Was responsible for training, motivation, and supervising over 17 fellow full-time volunteers over a seven-month period</li>
+                  <li>Learned to be punctual by planning daily activities and lessons</li>
+                  <li>I learned to love the culture and the people of Spain as I served them</li>              
+                </ul>
                 </p>
+                <h3 class="mb-3">Eagle Project</h3>
+                <p class="mb-5" style="font-weight:bold">
+                  <ul>
+                    <li>Planned construction of 40-foot fence to divide pedestrian and biker trails</li>
+                    <li>Organized the gathering of 30 people to accomplish the project</li>
+                    <li>Supervised the completion of the project in 4 hours</li>
+                    <li>Skills learned: Leadership, Discipline, Teamwork, Communication</li>
+                  </ul>
+                </p>
+
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
