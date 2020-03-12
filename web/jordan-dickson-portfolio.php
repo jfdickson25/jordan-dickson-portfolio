@@ -306,7 +306,7 @@
                   <li>I learned to love the culture and the people of Spain as I served them</li>              
                 </ul>
                 </p>
-                <h3 class="mb-3">Eagle Project</h3>
+                <h3 class="mt-3">Eagle Project</h3>
                 <p class="mb-5" style="font-weight:bold">
                   <ul>
                     <li>Planned construction of 40-foot fence to divide pedestrian and biker trails</li>
