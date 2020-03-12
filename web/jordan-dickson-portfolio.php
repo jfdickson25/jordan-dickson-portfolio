@@ -257,13 +257,12 @@
                 <img class="img-fluid rounded mb-5" src="img/portfolio/me.JPG" alt="Me" height="512px"
                   width="512px;">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5" style="font-weight:bold">
-                <ul>
+                <ul class="mb-3">
                   <li>I am from Washington State</li>
                   <li>I enjoy hiking, camping, and visiting new places</li>
                   <li>My other hobbies include playing basketball, reading, and watching movies</li>
                   <li>In this picture I am on a ferry to Seattle which is one of my favorite places</li>
-                </p>
+                </ul>
                 <hr>
                 
                 <h2 class="portfolio-modal-title text-dark text-uppercase mb-0 mt-3">My Family</h2>
@@ -277,11 +276,11 @@
                 </div>
                 <img class="img-fluid rounded mb-5" src="img/portfolio/family-photo.png" alt="My Family" height="512px"
                   width="512px;">
-                <p class="mb-5" style="font-weight:bold">This is my family. I am the youngest of seven children and
-                  proud uncle of 15 neices and nephews. Growing
-                  up in a big family has given me a great appreciation for strong families. I love getting to spend time
-                  with them and do my best to keep in touch and let them know I love them.
-                </p>
+                <ul>
+                  <li>I am the youngest of seven</li>
+                  <li>I have 15 nephews and nieces</li>
+                  <li>I love being part of a big family and enjoy spending time and learning from them</li>
+                </ul>
                 <br>
                 <br>
                 <hr>
@@ -401,10 +400,14 @@
                 <br>
                 <img class="img-fluid rounded mb-5" src="img/portfolio/Sudoku.png" alt="Sudoku game" height="512px"
                   width="512px">
-                <p class="mb-5, description" style="color:black">This was my first big project. We were tasked with making a Sudoku game that
-                                             would permit the user to interact with a Sudoku board. It was challenging as 
-                                             it was my first time writing code. Althought it was challenging it was also
-                                             very satisfying to finish and have something that I had created on my own.</p>
+                <p class="mb-5, description" style="color:black">
+                  <ul>
+                    <li>This was my first big coding project</li>
+                    <li>As a class were tasked with making a Sudoku game</li>
+                    <li>It was challenging as it was my first time writing code</li>
+                    <li>It was very satisfying to finish and have something that I had created on my own</li>
+                  </ul>
+                </p>
                 <br>
                 <br>
                 <!-- Portfolio Modal - Image -->
@@ -413,13 +416,14 @@
                 <img class="img-fluid rounded mb-5" src="img/portfolio/Asteroids.png" alt="Asteroids game"
                   height="512px" width="512px">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5, description" style="color:black">This was our final project in object oriented programming. This was one
-                                             of the first projects where I took the initiative to go above and beyond.
-                                             It was only required to make asteroids, I wanted to make the project my
-                                             own. I added colors and a scoring mechanism that would let the user know
-                                             how well they did. It would also congratulate the user on winning or 
-                                             present a message if they died. I also made it loop so the user could
-                                             choose to play again if they died or if they won the game.</p>
+                <p class="mb-5, description" style="color:black">
+                  <ul>
+                    <li>This was our final project in object oriented programming</li>
+                    <li>This was one of the first projects where I took the initiative to go above and beyond</li>
+                    <li>I went above and beyond by adding colors, a scoring mechanism, messages for winning and losing, and a play again feature</li>
+                    <li>It felt really good to know I had gone above and beyond the expectation</li>
+                  </ul>
+                </p>
                 <br>
                 <br>
                 <hr>
