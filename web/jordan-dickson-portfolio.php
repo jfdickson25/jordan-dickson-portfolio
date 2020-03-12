@@ -310,7 +310,7 @@
                 <h3 class="mt-3">Eagle Project</h3>
                 <p style="font-weight:bold">
                   <ul class="mb-5">
-                    <li>Planned construction of 40-foot fence to divide pedestrian and biker trails</li>
+                    <li>Planned the construction of a 40-foot fence to divide pedestrian and biker trails</li>
                     <li>Organized the gathering of 30 people to accomplish the project</li>
                     <li>Supervised the completion of the project in 4 hours</li>
                     <li>Skills learned: Leadership, Discipline, Teamwork, Communication</li>
