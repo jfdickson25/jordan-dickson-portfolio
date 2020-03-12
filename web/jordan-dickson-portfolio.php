@@ -264,7 +264,9 @@
                   <li>In this picture I am on a ferry to Seattle which is one of my favorite places</li>
                 </ul>
 
-                <hr class="mt3 mb-3">
+                <br>
+                <hr>
+                <br>
                 
                 <h2 class="portfolio-modal-title text-dark text-uppercase mb-0 mt-3">My Family</h2>
                 <!-- Icon Divider -->
