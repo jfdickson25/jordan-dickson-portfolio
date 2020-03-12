@@ -297,7 +297,7 @@
                 <img class="img-fluid rounded mb-5" src="img/portfolio/eagle-project.jpg" alt="Eagle Project" height="512px" width="512px;">
                 <h3 class='mt-3 mb-3'>Service Representative</h3>
                 <p class="mb-3" style="font-weight:bold">
-                <ul>
+                <ul style="font-size:14px">
                   <li>Two year full-time service volunteer for the Church of Jesus Christ of Latter Day Saints in Barcelona Spain. </li>
                   <li>Looked for service opportunities and share my beliefs with others</li>
                   <li>Developed communication skills by talking to people on the street and teaching religious lessons</li>
@@ -308,7 +308,7 @@
                 </p>
                 <h3 class="mt-3">Eagle Project</h3>
                 <p class="mb-5" style="font-weight:bold">
-                  <ul>
+                  <ul style="font-size:14px">
                     <li>Planned construction of 40-foot fence to divide pedestrian and biker trails</li>
                     <li>Organized the gathering of 30 people to accomplish the project</li>
                     <li>Supervised the completion of the project in 4 hours</li>
