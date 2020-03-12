@@ -290,7 +290,7 @@
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
                   <div class="divider-custom-icon">
-                    <i class="fas fa-place-of-worship"></i>
+                    <i class="fas fa-handshake"></i>
                   </div>
                   <div class="divider-custom-line"></div>
                 </div>
