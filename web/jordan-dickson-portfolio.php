@@ -263,7 +263,8 @@
                   <li>My other hobbies include playing basketball, reading, and watching movies</li>
                   <li>In this picture I am on a ferry to Seattle which is one of my favorite places</li>
                 </ul>
-                <hr>
+
+                <hr class="mt3 mb-3">
                 
                 <h2 class="portfolio-modal-title text-dark text-uppercase mb-0 mt-3">My Family</h2>
                 <!-- Icon Divider -->
