@@ -307,6 +307,11 @@
                     <li>Supervised the completion of the project in 4 hours</li>
                     <li>Skills learned: Leadership, Discipline, Teamwork, Communication</li>
                   </ul>
+
+                <br>
+                <hr>
+                <br>
+                
                 </p>
                 <img class="img-fluid rounded mb-5" src="img/portfolio/missionary.jpg" alt="Service Representative" height="512px" width="512px;">
                 <h3 class='mt-3 mb-5'>Service Representative</h3>
