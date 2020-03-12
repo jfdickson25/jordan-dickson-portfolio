@@ -307,7 +307,7 @@
                 </ul>
                 </p>
                 <h3 class="mt-3">Eagle Project</h3>
-                <p class="mb-5" style="font-weight:bold">
+                <p style="font-weight:bold">
                   <ul>
                     <li>Planned construction of 40-foot fence to divide pedestrian and biker trails</li>
                     <li>Organized the gathering of 30 people to accomplish the project</li>
