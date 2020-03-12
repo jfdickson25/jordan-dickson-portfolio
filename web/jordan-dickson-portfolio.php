@@ -317,8 +317,9 @@
                 <h3 class='mt-3'>Service Representative</h3>
                 <p class="mb-3" style="font-weight:bold">
                 <ul class="mb-3">
-                  <li>Two year full-time service volunteer for the Church of Jesus Christ of Latter Day Saints in Barcelona Spain. </li>
-                  <li>Looked for service opportunities and share my beliefs with others</li>
+                  <li>Two year full-time service volunteer in Barcelona Spain </li>
+                  <li>Volunteer for the Church of Jesus Christ of Latter Day Saints</li>
+                  <li>Looked for opportunities to serve and share my beliefs with others</li>
                   <li>Developed communication skills by talking to people on the street and teaching religious lessons</li>
                   <li>Was responsible for training, motivation, and supervising over 17 fellow full-time volunteers over a seven-month period</li>
                   <li>Learned to be punctual by planning daily activities and lessons</li>
