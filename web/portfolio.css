@@ -42,3 +42,7 @@ li {
 .full:hover {
     opacity: 1 !important;
 }
+
+li {
+    font-size: 12px;
+}
