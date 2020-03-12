@@ -257,11 +257,13 @@
                 <img class="img-fluid rounded mb-5" src="img/portfolio/me.JPG" alt="Me" height="512px"
                   width="512px;">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5" style="font-weight:bold">I am from Washington State. Being from the Pacific Northwest I
-                  am passionate about the outdoors.
-                  I love to go hiking, camping, and visit new places. Here in this picture I am in Tacoma which is one
-                  of my favorite cities. Here I can visit a few of my favorite places like the Grand Cinema where I can
-                  catch a movie, or The Social Ice Cream parlor....which is pretty obvious why I go there. </p>
+                <p class="mb-5" style="font-weight:bold">
+                <ul>
+                  <li>I am from Washington State</li>
+                  <li>I enjoy hiking, camping, and visiting new places</li>
+                  <li>My other hobbies include playing basketball, reading, and watching movies</li>
+                  <li>In this picture I am on a ferry to Seattle which is one of my favorite places</li>
+                </p>
                 <hr>
                 
                 <h2 class="portfolio-modal-title text-dark text-uppercase mb-0 mt-3">My Family</h2>
