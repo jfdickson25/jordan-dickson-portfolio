@@ -373,6 +373,13 @@
                 <br>
                 <br>
 
+                <a href="https://cs313-final-project.herokuapp.com/signIn.html" target="blank">
+                <img class="img-fluid rounded mt-3" src="img/portfolio/Sudoku2.PNG" alt="Shopping Cart" height="512px" width="800px;" style="border: dotted">
+                </a>
+                <p class="mb-5, description">Clickable link to Sudoku web page</p>
+                <br>
+                <br>
+
                 <a href="https://frozen-reaches-00850.herokuapp.com/prove/prove03/browse_items.php" target="blank">
                 <img class="img-fluid rounded mt-3" src="img/portfolio/shop-cart.png" alt="Shopping Cart" height="512px" width="800px;" style="border: dotted">
                 </a>
