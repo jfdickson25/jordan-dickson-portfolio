@@ -465,6 +465,7 @@
                 <h3>HTML/CSS</h3>
                 <h3>PHP</h3>
                 <h3>SQL</h3>
+                <h3>Node.js</h3>
                 <h3>Willing to learn more</h3>
 
 
