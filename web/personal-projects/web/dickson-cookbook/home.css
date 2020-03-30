@@ -1,20 +1,11 @@
-header {
-    height: auto;
-    width: 100%;
-    background-image: url('img/backdrop4.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
 small {
     font-size: 12px;
 }
 
 h1 {
-    padding-top: 500px;
-    padding-right: 10px;
-    color:white;
-    text-align: right;
+    margin-top:15px;
+    color:black;
+    text-align: center;
     font-size: 50pt;
     font-style: italic;
 }
@@ -24,7 +15,12 @@ h1 {
     max-width: 100%;
     max-height: 700px;
     min-height: 600px;
+    background-image: url('img/backdrop4.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
+
+
 
 .items {
     text-align: center;
@@ -53,12 +49,6 @@ hr.style-two {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-h2 {
-    padding-top: 50px;
-    text-align: center;
-    font-style: oblique;
 }
 
 h3 {
@@ -112,13 +102,11 @@ text-align: center;
 
 .category:hover {
 transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-transform-style: flat;
 cursor: pointer;
 }
 
 .selection {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 a {
@@ -129,4 +117,45 @@ a {
 a:hover {
     text-decoration: none;
     color:black;
+}
+
+.footer {
+    flex-shrink: 0;
+    margin-top:auto;
+}
+
+.portrait {
+    border:none;
+    border-radius: 100000px;
+    height:auto; 
+    width:auto; 
+    max-height: 400px;
+    max-width: 400px;
+    margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 0px;
+}
+
+.message {
+    margin-left:auto; 
+    margin-right:auto; 
+    font-style: italic; 
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2 {
+    width: 300px;
+    margin-left:auto; 
+    margin-right:auto; 
+    margin-top: 100px;
+    margin-bottom: 10px;
+    border:solid;
+    text-align: center;
+    font-style: oblique;
+    background-color: #868e96;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
