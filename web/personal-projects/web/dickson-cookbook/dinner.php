@@ -156,8 +156,10 @@
 
 <script>
     function sendRecipe() {
-        var recipe = 'This is the recipe';
+        <?php
+        $recipe = 'This is the recipe';
         $.get("test.php", { name:"Donald", town:"Ducktown" });
+        ?>
     }
 </script>
 </html>
