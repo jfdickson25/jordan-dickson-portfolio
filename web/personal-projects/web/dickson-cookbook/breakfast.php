@@ -55,7 +55,6 @@
     </div>
 
 
-    <div class='book'>
     <h2>Breakfast</h2>
     <div class="row">
         <div class='col-md-6 items'>
@@ -98,7 +97,6 @@
             </div>
         </div>
     </div>
-</div>
 
     <section class="copyright py-4 bg-light text-center text-dark">
         <small>Copyright &copy; Jordan Dickson 2020</small>
