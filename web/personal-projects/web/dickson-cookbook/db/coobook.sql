@@ -1,3 +1,58 @@
+DROP TABLE recipe;
+
+CREATE TABLE recipe (
+    id SERIAL       PRIMARY KEY NOT NULL
+  , title           VARCHAR 
+  , steps           VARCHAR(10000) NOT NULL
+  , ingredients     VARCHAR(10000) NOT NULL
+  );
+
+  INSERT INTO recipe (title, steps, ingredients) VALUES ('Vegan Tumeric Quinoa Power Bowls', 'Preheat oven to 350 degrees.
+Slice the potatoes into strips and lay flat on 1/2 of a baking sheet. Spray/drizzle them with coconut oil and sprinkle 1 tsp of turmeric over them. Add salt/pepper to taste.
+Roast for 5 minutes while you drain and rinse the chickpeas.
+Place the chickpeas in a mixing bowl and add 1 tsp of paprika, coating them evenly. Lay the chickpeas on the other 1/2 of the baking sheet.
+Roast the chickpeas and the potatoes for about 25 minutes (or until the potatoes are a little bit soft).
+Cook the quinoa with 1/2 cup of water. Once the quinoa is cooked, add 1 tsp of turmeric (salt/pepper to taste), mix together, and let cool.
+Wash the kale and massage the olive oil over the leaves. Separate the leaves into the 4 bowls.
+Slice the avocado and split into the 4 bowls.
+Add the quinoa and roasted chickpeas/potatoes to the bowls and serve!', '7 Small Yellow Potatoes
+15 oz. Can Chickpeas
+2 tsp Turmeric
+1 tsp Paprika
+1 Tbsp Coconut Oil
+1/4 cup quinoa
+Salt and Pepper
+2 Kale Leaves
+1/2 Tbsp Olive Oil
+1 Avocado');
+
+  SELECT * FROM recipe;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Vegan Tumeric Quinoa Power Bowls
 7 Small Yellow Potatoes
 15 oz. Can Chickpeas
