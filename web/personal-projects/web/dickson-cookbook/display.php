@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    $recipe = $_SESSION['recipe']
+    $recipe = $_SESSION['recipe'];
     echo $recipe;
 
 ?>

@@ -1,4 +1,12 @@
-<?php   session_start(); ?>
+<?php   
+
+    session_start(); 
+
+    $_SESSION['recipe'] = 'This is the recipe';
+
+?>
+
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -52,7 +60,7 @@
                 <div class="row">
                     <div class='col-md-10 container'>
                         <img src='img/Quinoa.jpg'>
-                        <div class="overlay" href='display.php'>
+                        <div class="overlay" onclick='sendRecipe()'>
                             <div class="text">
                                 <h3>Vegan Tumeric Quinoa Power Bowls</h3>
                                 <p>Healthy and delicious!</p>
@@ -152,6 +160,11 @@
         </section>
     
 </body>
-</html>
 
-<?php ?>
+<script>
+    function sendRecipe() {
+        window.location.href('display.php');
+    }
+</script>
+
+</html>
