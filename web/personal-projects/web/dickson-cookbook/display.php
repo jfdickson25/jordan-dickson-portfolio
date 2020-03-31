@@ -1,1 +1,14 @@
-<?php echo 'Hello You' ?>
+<?php 
+
+    $recipe = $_GET['recipe'];
+    echo $recipe; 
+
+
+
+
+
+
+
+
+
+?>

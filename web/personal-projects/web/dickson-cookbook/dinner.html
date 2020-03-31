@@ -51,7 +51,7 @@
             <div class='col-md-6 items'>
                 <div class="row">
                     <div class='col-md-10 container'>
-                        <img src='img/Quinoa.jpg'>
+                        <img src='img/Quinoa.jpg' onclick='sendRecipe()'>
                         <div class="overlay">
                             <div class="text">
                                 <h3>Vegan Tumeric Quinoa Power Bowls</h3>
@@ -152,4 +152,14 @@
         </section>
     
 </body>
+
+
+<script>
+    function sendRecipe() {
+        var recipe = 'This is the recipe';
+        $.get("/display.php", {
+            recipe: recipe
+         });
+    }
+</script>
 </html>
