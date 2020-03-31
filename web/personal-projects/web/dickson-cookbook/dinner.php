@@ -28,10 +28,10 @@
                 <div class='col-md-9' style='text-align:left'>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="breakfast.html">Breakfast</a>
+                            <a class="nav-link" href="breakfast.php">Breakfast</a>
                         </li>
                         <li>
-                            <a class="nav-link" href="lunch.html">Lunch</a>
+                            <a class="nav-link" href="lunch.php">Lunch</a>
                         </li>
                         <li>
                             <a class="nav-link" href="">Dinner</a>
