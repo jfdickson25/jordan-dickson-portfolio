@@ -58,7 +58,7 @@
                 <div class="row">
                     <div class='col-md-10 container'>
                         <img src='img/Quinoa.jpg'>
-                        <div class="overlay" onclick='sendRecipe()' href='display.php'>
+                        <div class="overlay" href='display.php'>
                             <div class="text">
                                 <h3>Vegan Tumeric Quinoa Power Bowls</h3>
                                 <p>Healthy and delicious!</p>
@@ -158,12 +158,4 @@
         </section>
     
 </body>
-
-
-<script>
-    function sendRecipe() {
-
-        window.location.href('display.php');
-    }
-</script>
 </html>
