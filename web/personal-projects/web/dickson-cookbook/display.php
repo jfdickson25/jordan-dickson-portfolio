@@ -1,6 +1,6 @@
 <?php 
 
-    $recipe = $_GET['recipe'];
+    $recipe = $_POST['recipe'];
     echo $recipe;
 
 ?>
