@@ -60,7 +60,7 @@
                 <div class="row">
                     <div class='col-md-10 container'>
                         <img src='img/Quinoa.jpg'>
-                        <div class="overlay" onclick='sendRecipe()'>
+                        <div class="overlay" onclick='<?php $_SESSION['recipe'] = 'We have changed the recipe' ?>'>
                             <div class="text">
                                 <h3>Vegan Tumeric Quinoa Power Bowls</h3>
                                 <p>Healthy and delicious!</p>
