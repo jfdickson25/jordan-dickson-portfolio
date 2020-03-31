@@ -158,6 +158,7 @@
 <script>
     function sendRecipe() {
 
+        console.log('We are in the send Recipe function');
         $recipe = 'This is the recipe';
         $.post("display.php", { recipe: $recipe });
     }
