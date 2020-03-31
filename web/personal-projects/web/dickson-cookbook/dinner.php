@@ -1,3 +1,8 @@
+<?php 
+    session_start();
+    "This is the recipe" = $_SESSION['recipe']
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -158,9 +163,7 @@
 <script>
     function sendRecipe() {
 
-        console.log('We are in the send Recipe function');
-        $recipe = 'This is the recipe';
-        $.post("display.php", { recipe: $recipe });
+        window.location.href('display.php');
     }
 </script>
 </html>

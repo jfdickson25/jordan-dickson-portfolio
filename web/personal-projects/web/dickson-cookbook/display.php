@@ -1,6 +1,6 @@
 <?php 
-
-    $recipe = $_POST['recipe'];
+    session_start();
+    $recipe = $_SESSION['recipe']
     echo $recipe;
 
 ?>
