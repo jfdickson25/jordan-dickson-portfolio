@@ -142,7 +142,7 @@
             <div class='col-md-6 items'>
                 <div class="row">
                     <div class='col-md-10 container'>
-                        <img src='img/coming-soon.png'>
+                        <img src='img/coming-soon.png' class='noImage'>
                         <div class="overlay">
                             <div class="text">
                                 <h3>Garlicky Lemon Mahi-Mahi</h3>
