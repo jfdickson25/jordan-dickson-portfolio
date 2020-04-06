@@ -1,46 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Cooking</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="home.css">
-
+    <title>Cookbook Home</title>
 </head>
 
 <body>
 
-    <div class='row sticky-top'>
-        <div class='col-md-12 container'>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class='col-md-2'>
-                    <a class="navbar-brand">Dickson Cookbook</a>
-                </div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Dickson Cookbook</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-                <div class='col-md-9' style='text-align:left'>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="breakfast.php">Breakfast</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="lunch.php">Lunch</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="dinner.php">Dinner</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class='col-md-1' style='text-align:right'>
-                    <img src='img/plus.png' class='add' style="height: 30px; width:30px;">
-                </div>
-
-            </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="category.php">Vegetables</a>
+            <a class="dropdown-item" href="category.php">Soups</a>
+            <a class="dropdown-item" href="category.php">Sauces, Dips and Condiments</a>
+            <a class="dropdown-item" href="category.php">Sandwiches</a>
+            <a class="dropdown-item" href="category.php">Salads</a>
+            <a class="dropdown-item" href="category.php">Recipes to Try (Untested)</a>
+            <a class="dropdown-item" href="category.php">Misc Recipes</a>
+            <a class="dropdown-item" href="category.php">Meats</a>
+            <a class="dropdown-item" href="category.php">Main Dishes</a>
+            <a class="dropdown-item" href="category.php">Large Crowd Meals</a>
+            <a class="dropdown-item" href="category.php">Instant Pot Recipes</a>
+            <a class="dropdown-item" href="category.php">Dutch Oven Recipes</a>
+            <a class="dropdown-item" href="category.php">Desserts</a>
+            <a class="dropdown-item" href="category.php">Breakfast Food</a>
+            <a class="dropdown-item" href="category.php">Breads</a>
+            <a class="dropdown-item" href="category.php">Appetizers, Beverages</a>
         </div>
-    </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+        <img src='img/plus.png' class='add' style="height: 30px; width:30px;">
+    </form>
+  </div>
+</nav>
 
     <div class="row">
         <div class='col-md-12'>

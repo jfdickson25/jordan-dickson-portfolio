@@ -101,6 +101,10 @@ text-align: center;
     width: 101%;
 }
 
+.add {
+    height: 50px;
+    width: 50px;
+}
 .add:hover {
     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     cursor: pointer;
@@ -167,6 +171,6 @@ h2 {
 }
 
 .noImage {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
 }
