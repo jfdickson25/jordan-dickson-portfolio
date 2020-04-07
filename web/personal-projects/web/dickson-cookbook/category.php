@@ -213,7 +213,22 @@
     }
 
     foreach ($_SESSION['recipes'] as $recipe) {
-        echo $recipe->title . " " , $recipe->ingredients . " " . $recipe->instructions . " " . $recipe->category_name; 
+           
+        echo "<div class='row'>
+                <div class='col-md-6 items'>
+                    <div class='row'>
+                        <div class='col-md-10 container'>
+                            <img src='img/coming.jpg'>
+                            <div class='overlay'>
+                                <div class='text'>
+                                    <h3>" . $recipe->title . "</h3>
+                                    <p>Great twist to a traditional burger</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>";
     }
   ?>
 
