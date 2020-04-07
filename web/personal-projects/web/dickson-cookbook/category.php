@@ -218,7 +218,7 @@
                 <div class='col-md-6 items'>
                     <div class='row'>
                         <div class='col-md-10 container'>
-                            <img src='img/coming.jpg'>
+                            <img src='img/coming.png' class='noImage'>
                             <div class='overlay'>
                                 <div class='text'>
                                     <h3>" . $recipe->title . "</h3>
