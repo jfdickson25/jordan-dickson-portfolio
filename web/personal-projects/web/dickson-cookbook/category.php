@@ -74,8 +74,8 @@
         </div>
     </div>
     <div class="dropdown col-md-12" style="text-align: center">
-        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
             Sub-Categories
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -185,6 +185,35 @@
             </div>
         </div>
     </div>
+
+    <?php
+
+
+    require "dbConnect.php";
+    $db = get_db();
+
+  
+    $statement = $db->prepare('SELECT *
+                              FROM recipe r
+                              INNER JOIN category c ON (r.category_id = c.id)');
+    $statement->execute();
+
+
+    while ($row = $statement->fetch(PDO::FETCH_ASSOC)){
+        
+        $currentRecipe = new stdClass();
+        $currentRecipe->title = $row['title'];
+        $currentRecipe->ingredients = $row['ingredients'];
+        $currentRecipe->instructions = $row['instructions'];
+        $currentRecipe->category_name = $row['category_name'];
+
+        array_push($_SESSION['recipes'], $currentRecipe);
+    }
+
+    echo $_SESSION['recipes'];
+  ?>
+
+
 
     <section class="copyright py-4 bg-light text-center text-dark">
         <small>Copyright &copy; Jordan Dickson 2020</small>
