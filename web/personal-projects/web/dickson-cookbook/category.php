@@ -208,7 +208,9 @@
         array_push($_SESSION['recipes'], $currentRecipe);
     }
 
-    echo $currentRecipe;
+    foreach ($_SESSION['recipes'] as $recipe) {
+        echo $recipe->title . " " , $recipe->ingredients . " " . $recipe->instructions . " " . $recipe->category_name; 
+    }
   ?>
 
 
