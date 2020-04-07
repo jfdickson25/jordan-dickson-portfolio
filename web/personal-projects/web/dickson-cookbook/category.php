@@ -99,7 +99,7 @@
 
     <div class="row">
         <div class='col-md-12'>
-            <?php echo '<h2>' . $_SESSION['recipes'][0]->category_name . '</h2>'; ?>
+            <?php echo '<h1>' . $_SESSION['recipes'][0]->category_name . '</h1>'; ?>
         </div>
     </div>
     <div class="dropdown col-md-12" style="text-align: center">
