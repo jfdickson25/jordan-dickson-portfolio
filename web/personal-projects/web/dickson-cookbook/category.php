@@ -121,12 +121,12 @@
                             <img src='img/coming.png' class='noImage'>
                             <div class='overlay'>
                                 <div class='text'>
-                                    <h3>" . $recipe->title . "</h3>
-                                    <p>Great twist to a traditional burger</p>
+                                    <h3>Prep Time 30 min</h3>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        </div>"
+                        . $recipe->title . 
+                    "</div>
                 </div>";
     }
   ?> </div>
