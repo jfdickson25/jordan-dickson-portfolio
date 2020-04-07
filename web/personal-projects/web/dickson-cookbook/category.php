@@ -2,8 +2,6 @@
 
     session_start(); 
 
-    $_SESSION['recipe'] = 'This is the recipe';
-
 ?>
 
 
@@ -210,7 +208,7 @@
         array_push($_SESSION['recipes'], $currentRecipe);
     }
 
-    echo $_SESSION['recipes'];
+    echo $currentRecipe;
   ?>
 
 
