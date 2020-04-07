@@ -61,6 +61,7 @@
                         <a class="dropdown-item" href="category.php">Breakfast Food</a>
                         <a class="dropdown-item" href="category.php">Breads</a>
                         <a class="dropdown-item" href="category.php">Appetizers, Beverages</a>
+                        <a class="dropdown-item" href="rachel-food.html">Rachel's Items</a>
                     </div>
                 </li>
             </ul>
@@ -119,7 +120,7 @@
                     <div class='row'>
                         <div class='col-md-10 container'>
                             <img src='img/coming.png' class='noImage'>
-                            <div class='overlay'>
+                            <div class='overlay' style='mb-3'>
                                 <div class='text'>
                                     <h4>Prep Time 30 min</h4>
                                 </div>
