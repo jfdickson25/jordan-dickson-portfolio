@@ -116,17 +116,17 @@
     foreach ($_SESSION['recipes'] as $recipe) {
            
         echo "<div class='col-md-6 items'>
-                    <div class='row'>
+                    <div class='row' style='text-align:center'>
                         <div class='col-md-10 container'>
                             <img src='img/coming.png' class='noImage'>
                             <div class='overlay'>
                                 <div class='text'>
-                                    <h3>Prep Time 30 min</h3>
+                                    <h4>Prep Time 30 min</h4>
                                 </div>
                             </div>
-                        </div>"
+                        </div><h3>"
                         . $recipe->title . 
-                    "</div>
+                    "</h3></div>
                 </div>";
     }
   ?> </div>
