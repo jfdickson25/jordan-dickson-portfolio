@@ -113,6 +113,7 @@
         array_push($_SESSION['recipes'], $currentRecipe);
     }
 
+    echo '<h2>' . $_SESSION['recipes'][0]->category_name . '</h2>';
     ?> <div class='row'> <?
     foreach ($_SESSION['recipes'] as $recipe) {
            
