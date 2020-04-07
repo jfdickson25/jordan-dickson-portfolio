@@ -212,10 +212,10 @@
         array_push($_SESSION['recipes'], $currentRecipe);
     }
 
+    ?> <div class='row'> <?
     foreach ($_SESSION['recipes'] as $recipe) {
            
-        echo "<div class='row'>
-                <div class='col-md-6 items'>
+        echo "<div class='col-md-6 items'>
                     <div class='row'>
                         <div class='col-md-10 container'>
                             <img src='img/coming.png' class='noImage'>
@@ -227,10 +227,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>";
+                </div>";
     }
-  ?>
+  ?> </div>
 
 
 
