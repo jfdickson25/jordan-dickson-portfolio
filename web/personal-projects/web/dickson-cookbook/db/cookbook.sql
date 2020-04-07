@@ -16,7 +16,7 @@ CREATE TABLE recipe (
 
 
   INSERT INTO category (category_name) VALUES ('Appetizers, Beverages');
-  INSERT INTO recipe (title, ingredients, instructions, category_id) VALUES ('Kelsey’s Limeade Cucumber Punch', 
+  INSERT INTO recipe (title, ingredients, instructions, category_id) VALUES ('Kelseys Limeade Cucumber Punch', 
   '1 frozen limeade concentrate 1 bottle 7-up 1 sliced cucumber Ice', 
   'Layer first the limeade, then the sliced cucumbers, then the ice and pour the pop over all that.  
   I suppose you want to stir a little, but just try it to see how it dissolves the concentrate.', 1);
