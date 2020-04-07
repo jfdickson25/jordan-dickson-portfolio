@@ -1,6 +1,10 @@
 <?php   
 
     session_start(); 
+    if (empty($_SESSION['recipes'])) {
+
+        $_SESSION['recipes'] = array(); 
+    }
 
 ?>
 
@@ -90,7 +94,7 @@
             <div class="row">
                 <div class='col-md-10 container'>
                     <img src='img/Quinoa.jpg'>
-                    <div class="overlay" onclick="<?php $_SESSION['recipe'] = 'We have changed the recipe' ?>">
+                    <div class="overlay">
                         <div class="text">
                             <h3>Vegan Tumeric Quinoa Power Bowls</h3>
                             <p>Healthy and delicious!</p>
