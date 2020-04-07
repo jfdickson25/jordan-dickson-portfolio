@@ -1,14 +1,4 @@
-<?php   
-
-    session_start(); 
-    if (empty($_SESSION['recipes'])) {
-
-        $_SESSION['recipes'] = array(); 
-    }
-
-?>
-
-
+<!DOCTYPE html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -88,48 +78,105 @@
     </div>
     <hr class="style-two">
 
-    <?php
-
-
-    require "dbConnect.php";
-    $db = get_db();
-
-  
-    $statement = $db->prepare('SELECT *
-                              FROM recipe r
-                              INNER JOIN category c ON (r.category_id = c.id)');
-    $statement->execute();
-
-
-    while ($row = $statement->fetch(PDO::FETCH_ASSOC)){
-        
-        $currentRecipe = new stdClass();
-        $currentRecipe->title = $row['title'];
-        $currentRecipe->ingredients = $row['ingredients'];
-        $currentRecipe->instructions = $row['instructions'];
-        $currentRecipe->category_name = $row['category_name'];
-
-        array_push($_SESSION['recipes'], $currentRecipe);
-    }
-
-    ?> <div class='row'> <?
-    foreach ($_SESSION['recipes'] as $recipe) {
-           
-        echo "<div class='col-md-6 items'>
-                    <div class='row'>
-                        <div class='col-md-10 container'>
-                            <img src='img/coming.png' class='noImage'>
-                            <div class='overlay'>
-                                <div class='text'>
-                                    <h3>" . $recipe->title . "</h3>
-                                    <p>Great twist to a traditional burger</p>
-                                </div>
-                            </div>
+    <h2>Healthy Choices</h2>
+    <div class="row">
+        <div class='col-md-6 items'>
+            <div class="row">
+                <div class='col-md-10 container'>
+                    <img src='img/Quinoa.jpg'>
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Vegan Tumeric Quinoa Power Bowls</h3>
+                            <p>Healthy and delicious!</p>
                         </div>
                     </div>
-                </div>";
-    }
-  ?> </div>
+                </div>
+            </div>
+        </div>
+        <div class='col-md-6 items'>
+            <div class="row">
+                <div class='col-md-10 container'>
+                    <img src='img/Harissa.jpg'>
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Harissa Sweet Potato Pita Pockets</h3>
+                            <p>When hankering for sweet potatoe go harissa!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='col-md-6 items'>
+            <div class="row">
+                <div class='col-md-10 container'>
+                    <img src='img/Mahi-Mahi.jpg'>
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Garlicky Lemon Mahi-Mahi</h3>
+                            <p>Can't go wrong with lemon and Garlick!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='col-md-6 items'>
+            <div class="row">
+                <div class='col-md-10 container'>
+                    <img src='img/beef-tacos.jpg'>
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Pineapple Poblano Beef Tacos</h3>
+                            <p>Quick easy taco recipe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 id='dinner'>Burgers</h2>
+    <div class="row">
+        <div class='col-md-6 items'>
+            <div class="row">
+                <div class='col-md-10 container'>
+                    <img src='img/gouda-burger.jpg'>
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Smoked Gouda Burgers</h3>
+                            <p>Great twist to a traditional burger</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='col-md-6 items'>
+            <div class="row">
+                <div class='col-md-10 container'>
+                    <img src='img/turkey-burger.jpg'>
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Best Ever Turkey Burger</h3>
+                            <p>A great substitution for beef</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='col-md-6 items'>
+            <div class="row">
+                <div class='col-md-10 container'>
+                    <img src='img/coming.png' class='noImage'>
+                    <div class="overlay">
+                        <div class="text">
+                            <h3>Garlicky Lemon Mahi-Mahi</h3>
+                            <p>Can't go wrong with lemon and Garlick!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -140,10 +187,5 @@
 
 </body>
 
-<script>
-    function sendRecipe() {
-        window.location.href('display.php');
-    }
-</script>
 
 </html>
