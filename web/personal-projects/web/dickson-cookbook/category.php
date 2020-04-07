@@ -71,24 +71,6 @@
         </div>
     </nav>
 
-    <div class="row">
-        <div class='col-md-12'>
-            <h1>Dinner Items</h1>
-        </div>
-    </div>
-    <div class="dropdown col-md-12" style="text-align: center">
-        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Sub-Categories
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-    </div>
-    <hr class="style-two">
-
     <?php
 
 
@@ -113,8 +95,27 @@
         array_push($_SESSION['recipes'], $currentRecipe);
     }
 
-    echo '<h2>' . $_SESSION['recipes'][0]->category_name . '</h2>';
-    ?> <div class='row'> <?
+    ?> 
+
+    <div class="row">
+        <div class='col-md-12'>
+            <?php echo '<h2>' . $_SESSION['recipes'][0]->category_name . '</h2>'; ?>
+        </div>
+    </div>
+    <div class="dropdown col-md-12" style="text-align: center">
+        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Sub-Categories
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+    </div>
+    <hr class="style-two">
+
+    <div class='row'> <?
     foreach ($_SESSION['recipes'] as $recipe) {
            
         echo "<div class='col-md-6 items'>
