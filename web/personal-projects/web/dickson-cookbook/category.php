@@ -123,9 +123,9 @@
                         <div class='col-md-10 container'>
                             <img src='img/coming.png' class='noImage'>
                             <div class='overlay' style='mb-3'>
-                                <div class='text' onclick='sendRecipe('" . $recipe->title . "')'>
+                                <div class='text' onclick='sendRecipe(" . "\"" . $recipe->title . "\"" . ")'>
                                     <h4>Prep Time 30 min</h4>
-                                </div>
+                                </div> 
                             </div><h3>"
                             . $recipe->title . 
                         "</h3>
