@@ -147,8 +147,6 @@
 <script>
     function sendRecipe(recipe) {
         console.log("We are sending this recipe: " + recipe);
-        $_SESSION['recipe_to_send'] = recipe;
-        //window.location.href('display.php');
     }
 </script>
 
