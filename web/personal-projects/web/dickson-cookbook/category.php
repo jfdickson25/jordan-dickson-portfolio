@@ -123,7 +123,7 @@
                         <div class='col-md-10 container'>
                             <img src='img/coming.png' class='noImage'>
                             <div class='overlay' style='mb-3'>
-                                <div class='text'>
+                                <div class='text' onclick='sendRecipe(" . $recipe->title . ")'>
                                     <h4>Prep Time 30 min</h4>
                                 </div>
                             </div><h3>"
@@ -145,8 +145,10 @@
 </body>
 
 <script>
-    function sendRecipe() {
-        window.location.href('display.php');
+    function sendRecipe(recipe) {
+        console.log("We are sending this recipe: " + recipe);
+        $_SESSION['recipe_to_send'] = recipe;
+        //window.location.href('display.php');
     }
 </script>
 
