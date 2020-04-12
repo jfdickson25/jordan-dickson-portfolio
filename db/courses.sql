@@ -72,21 +72,21 @@ INSERT INTO courses   ( code
                         , grade)
                  VALUES ('CS364'
                         , 'Software Engineering 1'
-                        , 'Current');
+                        , 'B+');
 
 INSERT INTO courses   ( code
                         , course
                         , grade)
                  VALUES ('CS371'
                         , 'Human Computer Interactions'
-                        , 'Current');
+                        , 'A');
 
 INSERT INTO courses   ( code
                         , course
                         , grade)
                  VALUES ('CS313'
                         , 'Web Engineering 2'
-                        , 'Current');
+                        , 'A-');
 
 
 \echo --*********************List all from character*********************--
